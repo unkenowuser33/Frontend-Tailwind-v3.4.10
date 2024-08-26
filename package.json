@@ -4,12 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+    "dev": "concurrently \"npx tailwindcss -i ./src/input.css -o ./static/css/style.css --watch\" \"python app.py\""
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "tailwindcss": "^3.4.10"
   }
 }
