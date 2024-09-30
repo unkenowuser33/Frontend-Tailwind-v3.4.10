@@ -75,7 +75,7 @@
     </nav>
 
     <section
-      class="flex flex-col lg:flex-row h-auto lg:h-[92vh] bg-bgsecc1 bg-no-repeat bg-right-bottom bg-green0 bg-auto"
+      class="flex flex-col lg:flex-row h-[100vh] md:h-[80vh] lg:h-[92vh] bg-bgsecc1 bg-no-repeat bg-right-bottom bg-green0 bg-auto"
     >
       <!-- Primera columna: Título y texto -->
       <div
@@ -144,7 +144,7 @@
     </section>
 
     <section
-      class="flex justify-center items-center h-screen bg-bg245_indx px-4 sm:px-6 lg:px-8"
+      class="flex justify-center items-center min-h-[90vh] lg:min-h-[100vh] flex-none h-screen bg-bg245_indx px-4 sm:px-6 lg:px-8"
     >
       <div
         class="flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-8 w-full max-w-screen-xl"
@@ -188,35 +188,75 @@
     </section>
 
     <section
-      class="bg-bg3_indx flex items-center h-[120vh] bg-bgsecc3 bg-no-repeat bg-center text-green3 select-none text-sm"
+      class="bg-bg3_indx flex h-[120vh] bg-bgsecc3 bg-no-repeat bg-center text-green3 select-none text-sm justify-center items-center text-center relative min-h-[120vh] flex-none"
     >
-      <div
-        class="flex flex-col justify-center items-center w-1/2 h-full space-y-12"
-      >
-        <p
-          class="-ml-64 transform transition-transform duration-300 hover:scale-105"
-        >
+      <div class="flex flex-col h-screen space-y-12 mx-auto">
+        <p class="transform transition-transform duration-300 hover:scale-105">
           Bitcoin is storming the<br />Bastille, and we're up<br />front.
         </p>
         <p
-          class="-ml-64 transform transition-transform duration-300 hover:scale-105"
+          class="transform transition-transform duration-300 hover:scale-105 mt-20"
         >
-          Trading platform is <br />designed for those <br />who grasp the power
-          <br />of blockchain's <br />promise,
+          Trading platform is <br />designed for those <br />who grasp the
+          power<br />of blockchain's <br />promise,
         </p>
       </div>
-      <div class="flex flex-col justify-center items-center w-1/2 h-full">
+
+      <div class="flex-col h-screen mx-auto">
         <p
-          class="-mb-60 -mr-64 transform transition-transform duration-300 hover:scale-105"
+          class="mb-60 transform transition-transform duration-300 hover:scale-105"
         >
-          we've created an exchange <br />to lead this revolutionary
-          <br />technology.
+          we've created an exchange <br />to lead this revolutionary<br />technology.
         </p>
       </div>
     </section>
 
+    <!--section
+      class="bg-white h-[120vh] bg-bgsecc3 bg-no-repeat bg-center text-green3 select-none flex flex-col lg:flex-row p-[10%]"
+    >
+      <div class="w-full lg:w-1/6 p-5 text-center">
+        <p class="text-sm">
+          Bitcoin is storming the<br />Bastille, and we're up<br />front.
+        </p>
+        <p class="mt-20 text-sm">
+          Trading platform is <br />designed for those <br />who grasp the
+          power<br />of blockchain's <br />promise,
+        </p>
+      </div>
+
+      <div class="w-full lg:w-1/6 p-5 flex flex-col justify-between">
+        <div class="h-[40vh] w-full flex items-center justify-center">
+          <p class="invisible"></p>
+        </div>
+        <div class="h-[40vh] w-full flex items-center justify-center">
+          <p class="invisible"></p>
+        </div>
+        <div class="h-[40vh] w-full flex items-center justify-center">
+          <p class="invisible"></p>
+        </div>
+      </div>
+
+      <div class="w-full lg:w-1/6 p-5 flex flex-col justify-between">
+        <div class="h-[40vh] w-full flex items-center justify-center">
+          <p class="invisible"></p>
+        </div>
+        <div class="h-[40vh] w-full flex items-center justify-center">
+          <p class="invisible"></p>
+        </div>
+        <div class="h-[40vh] w-full flex items-center justify-center">
+          <p class="invisible"></p>
+        </div>
+      </div>
+
+      <div class="w-full lg:w-1/6 p-5 text-center">
+        <p class="text-sm">
+          we've created an exchange <br />to lead this revolutionary<br />technology.
+        </p>
+      </div>
+    </section-->
+
     <section
-      class="flex flex-col h-auto lg:h-[230vh] bg-bg245_indx text-green3 space-y-20"
+      class="flex flex-col h-auto flex-none z-10 lg:h-[230vh] bg-bg245_indx text-green3 space-y-20"
     >
       <p
         class="font-semibold text-2xl sm:text-3xl text-center mt-12 sm:mt-24 select-none px-4"
@@ -396,10 +436,6 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="flex items-center justify-center h-[120vh]">
-      <!-- Contenido de tu sección -->
     </section>
 
     <footer class="h-[40vh]">
