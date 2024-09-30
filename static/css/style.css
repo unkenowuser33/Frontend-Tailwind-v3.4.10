@@ -1476,6 +1476,10 @@ video {
     margin: 3.5rem;
   }
 
+  .lg\:m-20{
+    margin: 5rem;
+  }
+
   .lg\:mx-5{
     margin-left: 1.25rem;
     margin-right: 1.25rem;
@@ -1520,6 +1524,10 @@ video {
 
   .lg\:mt-7{
     margin-top: 1.75rem;
+  }
+
+  .lg\:mr-20{
+    margin-right: 5rem;
   }
 
   .lg\:h-44{
