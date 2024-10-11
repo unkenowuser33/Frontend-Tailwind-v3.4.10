@@ -21,8 +21,8 @@ A continuación se presenta una imagen de la implementación final del proyecto:
 ## Tecnologías Utilizadas
 
 - **HTML**: Estructura de la página.
-- **CSS**: Estilos y diseño responsivo.
-- **JavaScript**: Interactividad (si aplica).
+- **Tailwind**: Estilos y diseño responsivo.
+- **JavaScript**: Interactividad.
 
 ## Características del Proyecto
 
