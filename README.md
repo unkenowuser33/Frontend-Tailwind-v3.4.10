@@ -1,39 +1,39 @@
-# Maquetación de una Página Web con Temática de Bitcoins
+# Layout of a Bitcoin-Themed Web Page
 
-Este proyecto es una maquetación de una página web con temática de bitcoins, diseñada para proporcionar una interfaz atractiva y funcional para los usuarios interesados en el mundo de las criptomonedas. A continuación, encontrarás detalles sobre el proyecto, así como enlaces y capturas de pantalla.
+This project is a layout of a Bitcoin-themed web page designed to provide an attractive and functional interface for users interested in the world of cryptocurrencies. Below, you will find details about the project, along with links and screenshots.
 
-## Enlace al Proyecto
+## Project Link
 
-Visita el proyecto en línea: [https://unknownuser33-proyects.online/frontend](https://unknownuser33-proyects.online/frontend)
+Visit the project online: [https://unknownuser33-proyects.online/frontend](https://unknownuser33-proyects.online/frontend)
 
-## Imágenes del Proyecto
+## Project Images
 
-### Diseño Propuesto
-Aquí puedes ver el diseño que se mandó a hacer:
+### Proposed Design
+Here you can see the design that was created:
 
-![Diseño Propuesto](https://github.com/user-attachments/assets/47429270-8a86-42f8-9860-643225b3c18e)
+![Proposed Design](https://github.com/user-attachments/assets/47429270-8a86-42f8-9860-643225b3c18e)
 
-### Captura de Pantalla del Proyecto
-A continuación se presenta una imagen de la implementación final del proyecto:
+### Screenshot of the Project
+Below is an image of the final implementation of the project:
 
-![Implementación del Proyecto](https://github.com/user-attachments/assets/de9459e8-ed28-480d-8b3c-7ec8c41cf4d7)
+![Project Implementation](https://github.com/user-attachments/assets/de9459e8-ed28-480d-8b3c-7ec8c41cf4d7)
 
-## Tecnologías Utilizadas
+## Technologies Used
 
-- **HTML**: Estructura de la página.
-- **Tailwind**: Estilos y diseño responsivo.
-- **JavaScript**: Interactividad.
+- **HTML**: Page structure.
+- **Tailwind**: Styles and responsive design.
+- **JavaScript**: Interactivity.
 
-## Características del Proyecto
+## Project Features
 
-- Diseño responsivo que se adapta a diferentes tamaños de pantalla.
-- Navegación intuitiva y fácil de usar.
-- Sección dedicada a la información sobre bitcoins y criptomonedas.
+- Responsive design that adapts to different screen sizes.
+- Intuitive and easy-to-use navigation.
+- Dedicated section for information about Bitcoins and cryptocurrencies.
 
-## Contribuciones
+## Contributions
 
-Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar pull requests. Todas las contribuciones son bienvenidas.
+If you would like to contribute to this project, feel free to fork it and submit pull requests. All contributions are welcome.
 
-## Contacto
+## Contact
 
-Para más información o preguntas, puedes contactarme a través de [brunotorner33@gmail.com](https://github.com/unknownuser33).
+For more information or questions, you can contact me at [brunotorner33@gmail.com](https://github.com/unknownuser33).
