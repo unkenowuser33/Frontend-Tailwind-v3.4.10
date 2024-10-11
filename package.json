@@ -1,7 +1,7 @@
 {
   "name": "pryct02.2-frontend-web",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"npx tailwindcss -i ./src/input.css -o ./static/css/style.css --watch\" \"python app.py\""

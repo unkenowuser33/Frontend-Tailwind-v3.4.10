@@ -3,17 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="We offer hosting services and creation of personalized web pages for companies. ¡Contact us today!"
+    />
     <title>Ofspace</title>
-    <link rel="stylesheet" href="../static/svg/ico_free_account.svg" />
-    <link rel="stylesheet" href="../static/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}?v=1"
+    />
   </head>
   <body class="font-lexend overflow-x-hidden">
-    <!-- Nav section -->
-    <nav class="bg-green0 h-[8vh] pt-5">
-      <div class="flex justify-between items-center px-5 md:px-20 lg:px-40">
+    <nav class="bg-green0 h-[10vh] pt-[2vh]">
+      <div class="flex justify-between items-center px-[10%] lg:px-[8%]">
         <a
           href="#"
-          class="text-2xl md:text-3xl lg:text-4xl font-extrabold text-tittle select-none"
+          class="text-[5vw] md:text-[3.5vw] lg:text-[2.5vw] font-extrabold text-tittle select-none"
           >ofsp_ce</a
         >
         <button class="text-gray-800 md:hidden" aria-label="Abrir menú">
@@ -33,40 +38,40 @@
           </svg>
         </button>
         <ul
-          class="hidden md:flex list-none gap-4 md:gap-6 lg:gap-10 font-semibold text-green3"
+          class="hidden md:flex list-none font-semibold text-green3 whitespace-nowrap"
         >
           <li>
             <a
               href="#"
-              class="py-2 px-1 hover:bg-[#D6E0D5] transition-colors duration-900"
+              class="py-[0.5vh] px-[1vw] hover:bg-[#D6E0D5] transition-colors duration-300 ease-in-out"
               >Instant Buy & Sell</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="py-2 px-1 hover:bg-[#D6E0D5] transition-colors duration-900"
+              class="py-[0.5vh] px-[1vw] hover:bg-[#D6E0D5] transition-colors duration-300 ease-in-out"
               >Markets</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="py-2 px-1 hover:bg-[#D6E0D5] transition-colors duration-900"
+              class="py-[0.5vh] px-[1vw] hover:bg-[#D6E0D5] transition-colors duration-300 ease-in-out"
               >Discover</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="py-2 px-1 hover:bg-[#D6E0D5] transition-colors duration-900"
+              class="py-[0.5vh] px-[1vw] hover:bg-[#D6E0D5] transition-colors duration-300 ease-in-out"
               >Sign Up</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="py-2 px-1 hover:bg-[#D6E0D5] transition-colors duration-900"
+              class="py-[0.5vh] px-[1vw] hover:bg-[#D6E0D5] transition-colors duration-300 ease-in-out"
               >Log In</a
             >
           </li>
@@ -75,67 +80,69 @@
     </nav>
 
     <section
-      class="flex flex-col lg:flex-row h-[100vh] md:h-[80vh] lg:h-[92vh] bg-bgsecc1 bg-no-repeat bg-right-bottom bg-green0 bg-auto"
+      class="sm:h-auto md:h-auto lg:h-[90vh] sm:py-[5%] md:py-0 lg:py-0 sm:px-[10%] md:px-[10%] lg:px-0 flex flex-col lg:flex-row bg-bgsecc1 bg-no-repeat bg-right-bottom bg-green0 bg-auto"
     >
       <!-- Primera columna: Título y texto -->
       <div
-        class="mt-10 lg:mt-20 text-4xl sm:text-5xl lg:text-7xl text-green3 font-semibold mx-auto lg:ml-40"
+        class="sm:mt-[5%] lg:mt-[4%] text-[6vw] sm:text-[4.5vw] lg:text-[5vw] text-green3 font-semibold mx-auto lg:ml-[8%] lg:flex-grow-[1]"
       >
-        <div
-          class="flex flex-row justify-center lg:justify-start mb-2 select-none"
-        >
-          <p class="rounded-md py-2 pr-4">Upgrade</p>
+        <div class="flex flex-row justify-center lg:justify-start select-none">
+          <p class="rounded-md pr-[2%]">Upgrade</p>
           <img
-            src="../static/svg/ico_gold_coin.svg"
+            src="{{ url_for('static', filename='svg/ico_gold_coin.svg') }}"
             alt="Icono"
-            class="w-12 sm:w-16 lg:w-20"
+            class="w-[10%] sm:w-[8%] lg:w-[10%]"
           />
         </div>
         <div
-          class="flex flex-row justify-center lg:justify-start mb-2 select-none whitespace-nowrap"
+          class="flex flex-row justify-center lg:justify-start select-none whitespace-nowrap"
         >
           <img
-            src="../static/svg/ico_man_bg.svg"
+            src="{{ url_for('static', filename='svg/ico_man_bg.svg') }}"
             alt="Icono"
-            class="w-12 sm:w-16 lg:w-20"
+            class="w-[10%] sm:w-[8%] lg:w-[10%]"
           />
-          <p class="ml-2 rounded-md py-2 pr-4">to Ofspace</p>
+          <p class="ml-[2%] rounded-md pr-[2%]">to Ofspace</p>
         </div>
         <p class="rounded-md select-none text-center lg:text-left">Global</p>
         <p
-          class="text-green3 text-xs sm:text-sm lg:text-base font-normal pt-6 select-none text-center lg:text-left"
+          class="text-green3 text-[1.5vw] sm:text-[1vw] lg:text-[1vw] font-normal pt-[3%] select-none text-center lg:text-left"
         >
           Ofspace global is the most trusted cryptocurrency <br />
           exchange known for its next-level security.
         </p>
-        <div class="flex justify-center lg:justify-start">
+        <div class="flex justify-center lg:justify-start pt-[3%]">
           <button
-            class="w-[6rem] sm:w-[7rem] mt-6 transition-transform duration-300 ease-in-out transform hover:scale-105"
+            class="w-[25%] lg:w-[20%] sm:w-[14%] transition-transform duration-300 ease-in-out transform hover:scale-105"
           >
-            <img src="../static/svg/ico_free_account.svg" alt="button" />
+            <img
+              src="{{ url_for('static', filename='svg/ico_free_account.svg') }}"
+              alt="button"
+              class="w-28"
+            />
           </button>
         </div>
       </div>
 
-      <!-- Segunda columna: Botones -->
+      <!-- Segunda columna: Imagen -->
       <div
-        class="bg-bgmen bg-no-repeat bg-bottom h-auto lg:h-[92vh] grid grid-cols-1 sm:grid-cols-2 ml-0 lg:ml-48 mt-10 lg:mt-0"
+        class="bg-bgmen bg-no-repeat bg-bottom h-auto grid grid-cols-1 sm:grid-cols-2 ml-0 mt-[5%] lg:mt-[2%] lg:w-[40%] lg:flex-grow-[2] md:justify-end pb-[10%] md:pb-0 lg:pb-0"
       >
         <div
-          class="flex flex-col justify-center lg:justify-end mb-10 lg:mb-[4rem] select-none pr-10 lg:mr-32"
+          class="flex flex-col justify-center lg:justify-end lg:mb-[25%] select-none pr-[0%] text-[2.5vh] md:flex-grow"
         >
           <p
-            class="px-4 sm:px-10 py-2 my-2 text-center text-green3 bg-white rounded-full transform transition-transform duration-300 hover:scale-105 mx-auto sm:ml-10 lg:whitespace-nowrap lg:w-60"
+            class="px-5 py-[3%] my-[2%] text-center text-green3 bg-white rounded-full transform transition-transform duration-300 hover:scale-105 mx-auto lg:whitespace-nowrap lg:w-[80%]"
           >
             Unmatched Security
           </p>
           <p
-            class="px-4 sm:px-10 py-2 my-2 text-center text-green3 bg-white rounded-full transform transition-transform duration-300 hover:scale-105 mx-auto sm:mr-10 lg:whitespace-nowrap lg:w-60"
+            class="px-5 py-[3%] my-[2%] text-center text-green3 bg-white rounded-full transform transition-transform duration-300 hover:scale-105 mx-auto lg:whitespace-nowrap lg:w-[80%] lg:mr-[40%]"
           >
             The Wealth
           </p>
           <p
-            class="px-4 sm:px-10 py-2 my-2 text-center text-green3 bg-white rounded-full transform transition-transform duration-300 hover:scale-105 mx-auto sm:ml-10 lg:whitespace-nowrap lg:w-60"
+            class="px-5 py-[3%] my-[2%] text-center text-green3 bg-white rounded-full transform transition-transform duration-300 hover:scale-105 mx-auto lg:whitespace-nowrap lg:w-[80%]"
           >
             Leveraged Token
           </p>
@@ -144,240 +151,206 @@
     </section>
 
     <section
-      class="flex justify-center items-center min-h-[90vh] lg:min-h-[100vh] flex-none h-screen bg-bg245_indx px-4 sm:px-6 lg:px-8"
+      class="flex justify-center items-center h-[100vh] md:h-auto lg:h-screen bg-bg245_indx"
     >
       <div
-        class="flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-8 w-full max-w-screen-xl"
+        class="flex flex-col lg:flex-row space-y-10 lg:space-y-0 lg:space-x-8 w-full lg:w-3/4 my-[10%]"
       >
-        <!-- Columna de la imagen -->
+        <!-- Imagen -->
         <div class="flex justify-center items-center w-full lg:w-1/2">
           <img
-            src="../static/svg/svg_bullet_bitcoins.svg"
+            src="{{ url_for('static', filename='svg/svg_bullet_bitcoins.svg') }}"
             alt="Imagen"
-            class="w-3/4 lg:w-full max-w-xs lg:max-w-md transform transition-transform duration-300 hover:scale-105"
+            class="w-[60%] md:w-[40%] lg:w-[75%] transform transition-transform duration-300 hover:scale-105"
           />
         </div>
 
-        <!-- Columna del contenido de texto -->
+        <!-- Textos y botón -->
         <div
-          class="flex flex-col justify-center items-center w-full lg:w-1/2 text-center lg:text-left select-none"
+          class="flex flex-col justify-center items-center w-full lg:w-1/2 select-none"
         >
           <p
-            class="text-green3 w-3/4 text-3xl sm:text-4xl lg:text-5xl font-semibold"
+            class="text-green3 w-[80%] md:text-[4vw] sm:text-[5vw] lg:text-[3.5vw] font-semibold text-center lg:text-left"
           >
-            Your Access to the <br />Top Coin Markets
+            Your Access to the Top Coin Markets
           </p>
           <p
-            class="text-green2 w-3/4 mt-4 sm:mt-6 lg:mt-7 text-base sm:text-lg lg:text-xl"
+            class="text-green2 w-[80%] mt-5 md:mt-3 text-center lg:text-left md:text-[1.4vw] lg:text-[1.2vw]"
           >
             Capitalize on trends and trade with confidence through our expansive
             marketplace listings.
           </p>
           <p
-            class="text-green1 w-3/4 mt-4 sm:mt-5 lg:mt-6 font-semibold text-sm sm:text-base lg:text-lg"
+            class="text-green1 w-[80%] mt-5 md:mt-3 text-center lg:text-left md:text-[1.2vw] lg:text-[1.1vw] font-semibold"
           >
             Buy, sell and trade over 500 markets
           </p>
           <button
-            class="w-[6rem] sm:w-[7rem] mt-6 sm:mt-8 transition-transform duration-300 ease-in-out transform hover:scale-105"
+            class="w-auto md:h-[7%] lg:w-[80%] mt-5 md:mt-3 transition-transform duration-300 ease-in-out transform hover:scale-105"
           >
-            <img src="../static/svg/ico_free_account2.svg" alt="button" />
+            <img
+              src="{{ url_for('static', filename='svg/ico_free_account2.svg') }}"
+              alt="button"
+              class="w-24"
+            />
           </button>
         </div>
       </div>
     </section>
 
     <section
-      class="bg-bg3_indx flex h-[120vh] bg-bgsecc3 bg-no-repeat bg-center text-green3 select-none text-sm justify-center items-center text-center relative min-h-[120vh] flex-none"
+      class="bg-bg3_indx flex flex-col sm:flex-row md:flex-row lg:flex-row items-center h-[100vh] md:h-[110vh] lg:h-[120vh] bg-bgsecc3 bg-no-repeat bg-center text-green3 select-none text-[2.5vw] sm:text-[2vw] lg:text-[1vw]"
     >
-      <div class="flex flex-col h-screen space-y-12 mx-auto">
-        <p class="transform transition-transform duration-300 hover:scale-105">
+      <div
+        class="flex flex-col justify-center items-center w-auto md:w-[40%] h-full space-y-[30%] md:space-y-[20%] lg:space-y-[10%] mt-0 md:mt-[5%] lg:mt-[10%]"
+      >
+        <p
+          class="sm:ml-0 md:ml-[-20%] transform transition-transform duration-300 hover:scale-105 text-center lg:text-left"
+        >
           Bitcoin is storming the<br />Bastille, and we're up<br />front.
         </p>
         <p
-          class="transform transition-transform duration-300 hover:scale-105 mt-20"
+          class="sm:ml-0 md:ml-[-20%] transform transition-transform duration-300 hover:scale-105 text-center lg:text-left"
         >
-          Trading platform is <br />designed for those <br />who grasp the
-          power<br />of blockchain's <br />promise,
+          Trading platform is <br />designed for those <br />who grasp the power
+          <br />of blockchain's <br />promise,
         </p>
       </div>
 
-      <div class="flex-col h-screen mx-auto">
+      <div class="w-[20%]"></div>
+
+      <div
+        class="flex flex-col justify-center items-center w-auto md:w-[40%] h-full mt-[20%]"
+      >
         <p
-          class="mb-60 transform transition-transform duration-300 hover:scale-105"
+          class="mb-[-10%] sm:mr-0 md:mr-[-20%] transform transition-transform duration-300 hover:scale-105 text-center lg:text-left"
         >
-          we've created an exchange <br />to lead this revolutionary<br />technology.
+          we've created an exchange <br />to lead this revolutionary
+          <br />technology.
         </p>
       </div>
     </section>
 
-    <!--section
-      class="bg-white h-[120vh] bg-bgsecc3 bg-no-repeat bg-center text-green3 select-none flex flex-col lg:flex-row p-[10%]"
-    >
-      <div class="w-full lg:w-1/6 p-5 text-center">
-        <p class="text-sm">
-          Bitcoin is storming the<br />Bastille, and we're up<br />front.
-        </p>
-        <p class="mt-20 text-sm">
-          Trading platform is <br />designed for those <br />who grasp the
-          power<br />of blockchain's <br />promise,
-        </p>
-      </div>
-
-      <div class="w-full lg:w-1/6 p-5 flex flex-col justify-between">
-        <div class="h-[40vh] w-full flex items-center justify-center">
-          <p class="invisible"></p>
-        </div>
-        <div class="h-[40vh] w-full flex items-center justify-center">
-          <p class="invisible"></p>
-        </div>
-        <div class="h-[40vh] w-full flex items-center justify-center">
-          <p class="invisible"></p>
-        </div>
-      </div>
-
-      <div class="w-full lg:w-1/6 p-5 flex flex-col justify-between">
-        <div class="h-[40vh] w-full flex items-center justify-center">
-          <p class="invisible"></p>
-        </div>
-        <div class="h-[40vh] w-full flex items-center justify-center">
-          <p class="invisible"></p>
-        </div>
-        <div class="h-[40vh] w-full flex items-center justify-center">
-          <p class="invisible"></p>
-        </div>
-      </div>
-
-      <div class="w-full lg:w-1/6 p-5 text-center">
-        <p class="text-sm">
-          we've created an exchange <br />to lead this revolutionary<br />technology.
-        </p>
-      </div>
-    </section-->
-
     <section
-      class="flex flex-col h-auto flex-none z-10 lg:h-[230vh] bg-bg245_indx text-green3 space-y-20"
+      class="flex flex-col h-auto md:h-[230vh] lg:h-[230vh] bg-bg245_indx text-green3 space-y-20 p-[8%] md:p-0 lg:p-0"
     >
-      <p
-        class="font-semibold text-2xl sm:text-3xl text-center mt-12 sm:mt-24 select-none px-4"
-      >
+      <p class="font-semibold text-3xl text-center mt-24 select-none">
         We've Created an Exchange to <br />Lead this Revolutionary
       </p>
-
-      <!-- Sección de íconos y descripciones -->
       <div
-        class="flex flex-col sm:flex-row justify-center space-y-10 sm:space-y-0 sm:space-x-10 lg:space-x-32 px-4 sm:px-0"
+        class="flex flex-col sm:flex-row justify-center space-x-0 md:space-x-32 lg:space-x-32 space-y-[10%] md:space-y-[0%] lg:space-y-[0%]"
       >
         <div
-          class="flex flex-col w-full sm:w-[30%] lg:w-[20%] select-none transform transition-transform duration-1000 hover:scale-105"
+          class="flex flex-col w-full sm:w-[20%] select-none transform transition-transform duration-1000 hover:scale-105"
         >
           <div
             class="space-y-6 hover:bg-[#d4d6d4] transition-colors duration-900 p-4 rounded-xl justify-center"
           >
             <img
-              src="../static/svg/ico_2arrow.svg"
+              src="{{ url_for('static', filename='svg/ico_2arrow.svg') }}"
               alt="Icono"
-              class="w-10 h-10 mx-auto"
+              class="w-10 h-10"
             />
-            <p class="font-bold text-center">Great Trading</p>
-            <p class="text-xs text-center">
+            <p class="font-bold">Great Trading</p>
+            <p class="text-xs">
               We believe in the potential to provide groundbreaking solutions
               across industries and beyond crypto.
             </p>
           </div>
         </div>
         <div
-          class="flex flex-col w-full sm:w-[30%] lg:w-[20%] select-none transform transition-transform duration-1000 hover:scale-105"
+          class="flex flex-col w-full sm:w-[20%] space-y-6 select-none transform transition-transform duration-1000 hover:scale-105"
         >
           <div
             class="space-y-6 hover:bg-[#d4d6d4] transition-colors duration-900 p-4 rounded-xl justify-center"
           >
             <img
-              src="../static/svg/icon_shield.svg"
+              src="{{ url_for('static', filename='svg/icon_shield.svg') }}"
               alt="Icono"
-              class="w-10 h-10 mx-auto"
+              class="w-10 h-10"
             />
-            <p class="font-bold text-center">Security First</p>
-            <p class="text-xs text-center">
+            <p class="font-bold">Security First</p>
+            <p class="text-xs">
               When choosing an exchange, trust matters. That's why security has
               been our top consideration.
             </p>
           </div>
         </div>
         <div
-          class="flex flex-col w-full sm:w-[30%] lg:w-[20%] select-none transform transition-transform duration-1000 hover:scale-105"
+          class="flex flex-col w-full sm:w-[20%] space-y-6 select-none transform transition-transform duration-1000 hover:scale-105"
         >
           <div
             class="space-y-6 hover:bg-[#d4d6d4] transition-colors duration-900 p-4 rounded-xl justify-center"
           >
             <img
-              src="../static/svg/ico_circle_2arrow.svg"
+              src="{{ url_for('static', filename='svg/ico_circle_2arrow.svg') }}"
               alt="Icono"
-              class="w-10 h-10 mx-auto"
+              class="w-10 h-10"
             />
-            <p class="font-bold text-center">Robust Technology</p>
-            <p class="text-xs text-center">
-              We ensure the reliability of our platform to provide users with
-              the best experience.
+            <p class="font-bold">Robust Technology</p>
+            <p class="text-xs">
+              When choosing an exchange, trust matters. That's why security has
+              been our top consideration.
             </p>
           </div>
         </div>
       </div>
-
-      <!-- Sección de la aplicación móvil -->
+      <div class="hidden md:block lg:block sm:h-0 md:h-1 lg:h-1"></div>
       <div
-        class="flex flex-col lg:flex-row h-auto lg:h-[40vh] rounded-2xl bg-[#D8E7DA] mx-[5%] lg:mx-[10%] bg-bgsecc5 bg-no-repeat bg-right transform transition-transform duration-300 hover:scale-105"
+        class="flex flex-col sm:flex-row h-auto md:h-[40vh] lg:h-[40vh] rounded-2xl bg-[#D8E7DA] mx-[5%] lg:mx-[11%] bg-bgsecc5 bg-no-repeat bg-right bg-cover md:bg-auto lg:bg-auto transform transition-transform duration-300 hover:scale-105"
       >
         <div
-          class="content-center w-full lg:w-1/2 justify-center my-6 lg:m-14 space-y-5"
+          class="content-center w-auto md:w-full lg:w-full sm:w-1/2 justify-center m-5 sm:m-7 lg:m-14 space-y-5"
         >
           <p
-            class="text-green3 font-semibold text-xl sm:text-3xl select-none text-center lg:text-left"
+            class="text-green3 font-semibold text-xl sm:text-2xl lg:text-3xl select-none text-center md:text-left lg:text-left"
           >
             Ofspace Global Mobile App Available Now
           </p>
-          <div class="space-x-5 flex flex-row justify-center lg:justify-start">
+          <div
+            class="space-x-5 flex flex-row justify-center md:justify-start lg:justify-start"
+          >
             <button
-              class="bg-transparent border border-white rounded-lg w-32 h-12 transform transition-transform duration-300 hover:scale-110 lg:bg-green2 lg:border-0"
+              class="border border-white md:border-none md:bg-green2 rounded-lg w-24 h-15 transform transition-transform duration-300 hover:scale-110"
             >
               <img
-                src="/public/../static/svg/ico_app_store.svg"
+                src="{{ url_for('static', filename='svg/ico_app_store.svg') }}"
                 alt="Icono"
-                class="p-2 w-24 lg:w-44"
+                class="p-2 px-4 w-44"
               />
             </button>
-
             <button
-              class="rounded-lg w-32 h-12 transform transition-transform duration-300 hover:scale-110 bg-white border-0 lg:bg-transparent lg:border lg:border-green2"
+              class="bg-white md:bg-transparent md:border md:border-green2 rounded-lg w-24 h-15 transform transition-transform duration-300 hover:scale-110"
             >
               <img
-                src="/public/../static/svg/ico_play_store.svg"
+                src="{{ url_for('static', filename='svg/ico_play_store.svg') }}"
                 alt="Icono"
-                class="p-2 w-24 lg:w-44"
+                class="p-2 px-4 w-44"
               />
             </button>
           </div>
         </div>
         <div
-          class="w-full lg:w-1/2 self-center lg:self-end flex justify-center"
+          class="w-auto lg:w-full self-center md:self-end lg:self-end flex justify-center"
         >
           <img
-            src="../static/svg/svg_seluco.svg"
+            src="{{ url_for('static', filename='svg/svg_seluco.svg') }}"
             alt="img"
-            class="select-none h-40 lg:h-[47.5vh] ml-0 lg:ml-24"
+            class="select-none h-[30vh] sm:h-[40vh] lg:h-[47.5vh] ml-0 sm:ml-12 lg:ml-24"
           />
         </div>
       </div>
 
-      <!-- Sección final -->
       <div
-        class="flex flex-col sm:h-auto justify-center space-y-5 lg:space-y-16 text-center select-none px-4 sm:px-0"
+        class="flex flex-col justify-center space-y-16 text-center select-none"
       >
-        <div
-          class="text-green3 space-y-9 flex flex-col w-full lg:w-screen mt-6"
-        >
-          <p class="text-2xl sm:text-5xl">An Innovative Environment for</p>
-          <p class="mx-2 sm:mx-[25%]">
+        <div class="text-green3 space-y-9 flex flex-col w-full mt-6">
+          <p class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+            An Innovative Environment for
+          </p>
+          <p
+            class="mx-[5%] sm:mx-[10%] md:mx-[20%] lg:mx-[25%] text-sm sm:text-base md:text-lg lg:text-xl"
+          >
             Bitcoin is storming the bastille, and we're up front. Bittrex
             Global's premier trading platform is designed for those who grasp
             the power of blockchain's promise, and want to be a part of the
@@ -385,51 +358,50 @@
           </p>
         </div>
 
-        <!-- Botones de acción -->
-        <div class="justify-center flex flex-row flex-wrap md:flex-nowrap">
-          <!-- Primer cuadro -->
+        <div
+          class="justify-center flex flex-col sm:flex-row space-y-8 sm:space-y-0"
+        >
           <div
-            class="flex flex-row bg-white rounded-2xl h-36 lg:h-44 w-full sm:w-[90%] md:w-auto ml-0 md:ml-[12%] p-3 md:p-5 md:transform md:transition-transform md:duration-300 md:hover:scale-105"
+            class="flex flex-row bg-white w-auto md:w-1/2 rounded-2xl h-36 sm:h-44 lg:h-auto p-5 transform transition-transform duration-300 hover:scale-105 mx-[5%] sm:ml-[5%] md:ml-[8%] lg:ml-[11%]"
           >
             <img
-              src="../static/svg/svg_men.svg"
+              src="{{ url_for('static', filename='svg/svg_men.svg') }}"
               alt="img"
-              class="w-[60px] h-auto sm:w-auto transform transition-transform duration-300 hover:scale-110"
+              class="w-auto h-24 sm:h-28 md:h-32 transform transition-transform duration-300 hover:scale-110"
             />
-            <div class="content-center text-left pl-4 md:pl-8">
-              <p class="text-lg sm:text-2xl">
+            <div class="content-center text-left px-4 md:p-4">
+              <p class="text-lg sm:text-xl lg:text-2xl">
                 Create Your Account to Get Started
               </p>
-              <div class="my-2 md:my-3"></div>
+              <div class="sm:my-0 md:my-3"></div>
               <a href="#" class="text-green2 relative group">
                 <span class="relative z-10">Join Today</span>
                 <span class="inline-block">→</span>
                 <span
-                  class="absolute left-0 bottom-0 w-[calc(100%-1.3em)] h-[2px] bg-green2 scale-x-0 lg:group-hover:scale-x-100 lg:transition-transform lg:duration-300 lg:origin-left"
+                  class="absolute left-0 bottom-0 w-[calc(100%-1.3em)] h-[2px] bg-green2 scale-x-0 lg:group-hover:scale-x-100 lg:transition-transform duration-300 lg:origin-left"
                 ></span>
               </a>
             </div>
           </div>
 
-          <div class="sm:my-5 lg:mx-5"></div>
-
-          <!-- Segundo cuadro -->
           <div
-            class="flex flex-row bg-white rounded-2xl h-36 lg:h-44 w-full sm:w-[90%] md:w-auto mr-0 md:mr-[12%] p-3 md:p-5 md:transform md:transition-transform md:duration-300 md:hover:scale-105"
+            class="flex flex-row bg-white w-auto md:w-1/2 rounded-2xl h-36 sm:h-44 lg:h-auto p-5 transform transition-transform duration-300 hover:scale-105 mx-[5%] sm:mr-[5%] md:mr-[8%] lg:mr-[11%]"
           >
             <img
-              src="../static/svg/svg_woman.svg"
+              src="{{ url_for('static', filename='svg/svg_woman.svg') }}"
               alt="img"
-              class="w-[60px] h-auto sm:w-auto transform transition-transform duration-300 hover:scale-110"
+              class="w-auto h-24 sm:h-28 md:h-32 transform transition-transform duration-300 hover:scale-110"
             />
-            <div class="content-center text-left pl-4 md:pl-8">
-              <p class="text-lg sm:text-2xl">Submit Your Token for Listing.</p>
-              <div class="my-2 md:my-3"></div>
+            <div class="content-center text-left px-4 md:p-4">
+              <p class="text-lg sm:text-xl lg:text-2xl">
+                Submit Your Token for Listing
+              </p>
+              <div class="sm:my-0 md:my-3"></div>
               <a href="#" class="text-green2 relative group">
                 <span class="relative z-10">Join Today</span>
                 <span class="inline-block">→</span>
                 <span
-                  class="absolute left-0 bottom-0 w-[calc(100%-1.3em)] h-[2px] bg-green2 scale-x-0 lg:group-hover:scale-x-100 lg:transition-transform lg:duration-300 lg:origin-left"
+                  class="absolute left-0 bottom-0 w-[calc(100%-1.3em)] h-[2px] bg-green2 scale-x-0 lg:group-hover:scale-x-100 lg:transition-transform duration-300 lg:origin-left"
                 ></span>
               </a>
             </div>
@@ -438,94 +410,99 @@
       </div>
     </section>
 
-    <footer class="h-[40vh]">
+    <footer class="h-auto">
       <div
-        class="h-[20vh] sm:flex sm:flex-row bg-green2 md:items-center p-2 content-center"
+        class="h-auto md:h-36 flex flex-col md:flex-row bg-green2 items-center py-4 md:py-0"
       >
-        <div class="md:w-auto sm:w-1/2 md:p-5 md:px-40">
+        <div
+          class="w-full md:w-auto px-5 md:px-[10%] mb-4 md:mb-0 text-center md:text-left"
+        >
           <a
             href="#"
-            class="text-4xl font-extrabold text-white select-none md:hover:opacity-25 md:duration-500 sm:my-10"
+            class="text-3xl sm:text-4xl font-extrabold text-white select-none hover:opacity-75 duration-500"
             >ofsp_ce</a
           >
         </div>
-        <div class="sm:w-1/2">
+        <!-- Links de navegación -->
+        <div class="w-full md:w-auto text-center md:text-left">
           <ul
-            class="flex md:flex-row sm:flex-col space-x-7 list-none select-none text-white text-xs whitespace-nowrap"
+            class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-7 list-none select-none text-white text-sm sm:text-xs"
           >
-            <li class="sm:my-10">
-              <a href="#" class="md:hover:opacity-25 duration-500"
+            <li>
+              <a href="#" class="hover:opacity-75 duration-500"
                 >Instant Buy & Sell</a
               >
             </li>
-            <li class="sm:my-10">
-              <a href="#" class="md:hover:opacity-25 duration-500">Markets</a>
+            <li>
+              <a href="#" class="hover:opacity-75 duration-500">Markets</a>
             </li>
-            <li class="sm:my-10">
-              <a href="#" class="md:hover:opacity-25 duration-500">Discover</a>
+            <li>
+              <a href="#" class="hover:opacity-75 duration-500">Discover</a>
             </li>
-            <li class="sm:my-10">
-              <a href="#" class="md:hover:opacity-25 duration-500">Sign Up</a>
+            <li>
+              <a href="#" class="hover:opacity-75 duration-500">Sign Up</a>
             </li>
-            <li class="sm:my-10">
-              <a href="#" class="relative md:hover:opacity-25 duration-500"
+            <li>
+              <a href="#" class="relative hover:opacity-75 duration-500"
                 >Log In</a
               >
             </li>
           </ul>
         </div>
-        <div class="w-auto md:px-[10%] ml-auto space-x-7 select-none sm:w-1/2">
+        <!-- Links adicionales -->
+        <div
+          class="w-full md:w-auto px-5 md:px-[10%] mt-4 md:mt-0 text-center md:text-right space-y-4 md:space-y-0"
+        >
           <a
             href="#"
-            class="text-white text-sm relative md:hover:opacity-25 duration-500 sm:my-4"
+            class="text-white text-sm sm:text-xs relative hover:opacity-75 duration-500"
             >Support</a
           >
           <a
             href="#"
-            class="text-white text-sm relative md:hover:opacity-25 duration-500 sm:my-4"
+            class="text-white text-sm sm:text-xs relative hover:opacity-75 duration-500"
             >Website State</a
           >
         </div>
       </div>
 
+      <!-- Sección inferior -->
       <div
-        class="h-[20vh] flex flex-col sm:flex-row bg-bg245_indx items-center sm:px-40 px-4 sm:space-y-0 space-y-4"
+        class="h-auto flex flex-col md:flex-row bg-bg245_indx items-center px-5 md:px-[10%] py-6"
       >
-        <!-- Texto -->
+        <!-- Texto legal -->
         <p
-          class="text-sm sm:w-[40%] w-full text-green3 select-none text-center sm:text-left"
+          class="text-xs sm:text-sm w-full md:w-[60%] text-center md:text-left text-green3 select-none mb-6 md:mb-0"
         >
           And the Company is authorized to carry on business in that capacity
           subject to the provisions of the said Act and the conditions set out
           in Schedule 1 attached hereto.
         </p>
-
-        <!-- Espacio en blanco para separación en versión de escritorio -->
-        <div class="hidden sm:block sm:w-[30%]"></div>
-
-        <!-- Íconos redes sociales -->
+        <!-- Espacio vacío -->
+        <div class="w-full md:w-[20%]"></div>
+        <!-- Redes sociales -->
         <div
-          class="flex flex-row w-full sm:w-[30%] justify-center sm:justify-end space-x-5"
+          class="flex flex-row w-full md:w-[20%] space-x-4 justify-center md:justify-end"
         >
           <button>
             <img
-              src="../static/svg/ico_instagram.svg"
+              src="{{ url_for('static', filename='svg/ico_instagram.svg') }}"
               alt="Icono"
-              class="w-10 sm:w-12 hover:opacity-25 duration-500"
+              class="w-8 sm:w-10 md:w-12 hover:opacity-75 duration-500"
             />
           </button>
           <button>
             <img
-              src="../static/svg/ico_facebook.svg"
+              src="{{ url_for('static', filename='svg/ico_facebook.svg') }}"
               alt="Icono"
-              class="w-10 sm:w-12 hover:opacity-25 duration-500"
+              class="w-8 sm:w-10 md:w-12 hover:opacity-75 duration-500"
             />
           </button>
           <button>
             <img
-              src="../static/svg/ico_twitter.svg"
+              src="{{ url_for('static', filename='svg/ico_twitter.svg') }}"
               alt="Icono"
-              class="w-10 sm:w-12 hover:opacity-25 duration-500"
+              class="w-8 sm:w-10 md:w-12 hover:opacity-75 duration-500"
             />
           </button>
         </div>

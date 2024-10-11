@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       backgroundImage: {
         bgsecc1: "url('/static/svg/bg_secc1.svg')",
-        ico_manbg: "url('/static/svg/icon_man_bg.svg')",
         bgmen: "url('/static/svg/bg_business_men.svg')",
         bgsecc3: "url('/static/svg/bg_secc3.svg')",
         bgsecc5: "url('/static/svg/bg_secc5.svg')",
