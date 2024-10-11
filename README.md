@@ -34,10 +34,6 @@ A continuación se presenta una imagen de la implementación final del proyecto:
 
 Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar pull requests. Todas las contribuciones son bienvenidas.
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
 ## Contacto
 
 Para más información o preguntas, puedes contactarme a través de [brunotorner33@gmail.com](https://github.com/unknownuser33).
