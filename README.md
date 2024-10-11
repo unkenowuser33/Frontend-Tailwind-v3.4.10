@@ -17,7 +17,6 @@ Aquí puedes ver el diseño que se mandó a hacer:
 A continuación se presenta una imagen de la implementación final del proyecto:
 
 ![Implementación del Proyecto](https://github.com/user-attachments/assets/de9459e8-ed28-480d-8b3c-7ec8c41cf4d7)
-![unknownuser33-proyects online_frontend](https://github.com/user-attachments/assets/1479e3c3-ee20-4f38-a9c9-dadd3d59deb1)
 
 ## Tecnologías Utilizadas
 
@@ -41,4 +40,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## Contacto
 
-Para más información o preguntas, puedes contactarme a través de [tu correo electrónico o perfil de GitHub](https://github.com/unknownuser33).
+Para más información o preguntas, puedes contactarme a través de [brunotorner33@gmail.com](https://github.com/unknownuser33).
